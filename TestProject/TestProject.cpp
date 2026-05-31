@@ -1,20 +1,31 @@
-// TestProject.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+struct House {
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+};
+
+House getBiggestHousePeople(vector<House> houses);
+
+
+// Створити структуру House, Номер, Місто, Вулиця, Кількість поверхів, Кількість людей
+
+// Масив (Вектор) Будинків 5 елементів, і написати функцію яка повертає будинок з найбільшою кількістю людей
+
+// Зробити коміт цієї задачі, зробити push (Закинути на гіт хаб) Скинути мені посилання
+
+// Зробити нову гілку feature/person 
+
+// В цій гілці створити Структуру Person з властивостями Ім'я, Вік, Стать
+//В Структурі House додати/замінити кількість людей на Вектор Person мешканці (Додати декілька людей)
+
+// Зробити коміт
+// Зробити Пуш
+// Зробити пул реквест
