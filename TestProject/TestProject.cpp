@@ -5,7 +5,11 @@ using namespace std;
 
 int main()
 {
+<<<<<<< HEAD
     cout << "Test";
+=======
+    cout << "Branch 2";
+>>>>>>> test2
 }
 
 struct House {
