@@ -29,3 +29,5 @@ House getBiggestHousePeople(vector<House> houses);
 // «робити ком≥т
 // «робити ѕуш
 // «робити пул реквест
+
+// test commit2
